@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace Asteroids
 {
@@ -7,6 +8,14 @@ namespace Asteroids
         public AsteroidsFrame()
         {
             InitializeComponent();
+
+            Show();
+            new Login(Completed, null).Show();
+        }
+
+        public void Completed(string host, string name)
+        {
+            System.Diagnostics.Debug.WriteLine($"host: {host}\nname: {name}");
         }
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroids", "Asteroids\Asteroids.csproj", "{9CF7A6CA-E5C4-4FD6-B856-EB5279618BFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Render", "Render\Render.csproj", "{E9242585-D54F-42C5-B30A-F6C68847D578}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9CF7A6CA-E5C4-4FD6-B856-EB5279618BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CF7A6CA-E5C4-4FD6-B856-EB5279618BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CF7A6CA-E5C4-4FD6-B856-EB5279618BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9242585-D54F-42C5-B30A-F6C68847D578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9242585-D54F-42C5-B30A-F6C68847D578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9242585-D54F-42C5-B30A-F6C68847D578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9242585-D54F-42C5-B30A-F6C68847D578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
